@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+body {
+    background-color: #f9dc5c;
+}
+
+h1 {
+    font-size: 40px;
+    color: tomato;
+    line-height: 1;
+    padding: 30px;
+}
+
+button {
+    background-color: tomato;
+    color: #f9dc5c;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    background: #ED254E;
+    border-radius: 5px;
+    max-width: 500px;
+    min-height: 500px;
+    margin: auto;
+    padding: 5px;
+    margin-top: 30px;   
+}
+
+.square {
+    border: black solid 1px;
+}
+
+.square:hover {
+    background-color: aquamarine;
+}
